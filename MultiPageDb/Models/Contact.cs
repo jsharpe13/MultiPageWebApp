@@ -19,7 +19,8 @@ namespace MultiPageDb.Models
 
         [Required(ErrorMessage ="Please enter an address.")]
         public string Address { get; set; }
-        
+
+        [Required(ErrorMessage = "Please enter a note.")]
         public string Note { get; set; }
 
         public string Slug =>
